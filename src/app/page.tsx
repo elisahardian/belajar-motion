@@ -64,8 +64,8 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="grid grid-cols-3 items-center gap-10 m-10 py-30">
-          <motion.div initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, type: "spring" }} viewport={{ once: true, amount: 0.3 }} className="col-span-1 flex justify-center">
+        <div className="grid grid-cols-3 items-center gap-10 m-10 py-24">
+          <motion.div initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 1.2, type: "spring" }} viewport={{ once: true, amount: 0.3 }} className="col-span-1 flex justify-center mt-40">
             <Image className="rounded-xl object-cover" src="/assets/image1.jpg" alt="Gambar 1" width={250} height={250} />
           </motion.div>
 
@@ -104,7 +104,7 @@ export default function Home() {
               </CardContent>
             </Card>
           </motion.div>
-          <motion.div initial={{ opacity: 0, x: 200 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 3.5, type: "spring" }} viewport={{ once: true, amount: 0.3 }}>
+          <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 3.5, type: "spring" }} viewport={{ once: true, amount: 0.3 }}>
             <Card className="w-[350px]">
               <CardHeader>
                 <motion.div initial={{ opacity: 0, rotate: 180 }} whileInView={{ opacity: 1, rotate: 0 }} transition={{ duration: 2, type: "spring" }} viewport={{ once: true, amount: 0.5 }} className="col-span-1 flex justify-center">
@@ -125,7 +125,7 @@ export default function Home() {
               </CardContent>
             </Card>
           </motion.div>
-          <motion.div initial={{ opacity: 0, x: 200 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 5.5, type: "spring" }} viewport={{ once: true, amount: 0.3 }}>
+          <motion.div initial={{ opacity: 0, x: 10 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 5.5, type: "spring" }} viewport={{ once: true, amount: 0.3 }}>
             <Card className="w-[350px]">
               <CardHeader>
                 <motion.div initial={{ opacity: 0, rotate: 180 }} whileInView={{ opacity: 1, rotate: 0 }} transition={{ duration: 3, type: "spring" }} viewport={{ once: true, amount: 0.5 }} className="col-span-1 flex justify-center">
